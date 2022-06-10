@@ -11,5 +11,3 @@ RUN scalaenv install scala-2.12.11 && scalaenv global scala-2.12.11
 RUN pip install pipenv
 
 RUN pipenv install
-
-RUN pipenv shell
